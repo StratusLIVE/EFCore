@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "c14d0fe2b7fe665446c763078e6b6483d0e04550"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Microsoft.EntityFrameworkCore.Abstractions/2.2.0-rtm-t000": {
+        "dependencies": {
+          "Internal.AspNetCore.Sdk": "2.2.0-preview2-20181105.3",
+          "NETStandard.Library": "2.0.3",
+          "StyleCop.Analyzers": "1.0.0"
+        },
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+        }
+      },
+      "Internal.AspNetCore.Sdk/2.2.0-preview2-20181105.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.BuildTools.ApiCheck": "2.2.0-preview2-20181105.3"
+        }
+      },
+      "Microsoft.AspNetCore.BuildTools.ApiCheck/2.2.0-preview2-20181105.3": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "StyleCop.Analyzers/1.0.0": {}
+    }
+  },
+  "libraries": {
+    "Microsoft.EntityFrameworkCore.Abstractions/2.2.0-rtm-t000": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Internal.AspNetCore.Sdk/2.2.0-preview2-20181105.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M889eVytcxqIwybtcj6ZgG9i4CfBl/AqFuEtDHrv2KoKq+vPi7aTX0i0UW9bfXlwLRShcWWrdb/JX+dWB37hXw==",
+      "path": "internal.aspnetcore.sdk/2.2.0-preview2-20181105.3",
+      "hashPath": "internal.aspnetcore.sdk.2.2.0-preview2-20181105.3.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.BuildTools.ApiCheck/2.2.0-preview2-20181105.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-naV+HIuH/wLwyuiVQzxqjsXtBvSli80jpXm3FWJbONhd37PxvjkJzCAE4TZlZ17+CyTmzjhqCbfs1uIYr0sbGg==",
+      "path": "microsoft.aspnetcore.buildtools.apicheck/2.2.0-preview2-20181105.3",
+      "hashPath": "microsoft.aspnetcore.buildtools.apicheck.2.2.0-preview2-20181105.3.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b2LZgFCBMLu2u60UDvs7uQb1M6ak+jBWJyVwfZb9EzFsgJk0qh0Yngd2SovirpCEd/bu3yVx6Qj5upwo12OXPA==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NT0qdVF8gfXn6YcajL/s9orWNbO9NAr9AM8MDHIxXHstMvxi7+viLxAlZIoWRAA25Cs4O91qFcMt06cL/61TjQ==",
+      "path": "stylecop.analyzers/1.0.0",
+      "hashPath": "stylecop.analyzers.1.0.0.nupkg.sha512"
+    }
+  }
+}
