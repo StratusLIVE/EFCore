@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>StratusLiveEFCoreCustom-Debug</id>
+    <version>1.0.0.0-rtm-3</version>
+    <authors>StratusLive, LLC</authors>
+    <copyright>Copyright 2018</copyright>
+    <projectUrl>https://github.com/StratusLIVE/EFCore</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contains edits for Geometry comparisons and loading large volumes of data.</description>
+	<dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="NetTopologySuite.Core" version="1.15.1" />
+        <dependency id="NetTopologySuite.IO.SqlServerBytes" version="1.15.0" />
+        <dependency id="System.Data.SqlClient" version="4.6.0-rtm-27105-02" />
+        <dependency id="Castle.Core" version="4.2.1" />
+        <dependency id="Microsoft.CSharp" version="4.5.0" />
+        <dependency id="Microsoft.Extensions.Caching.Memory" version="2.2.0-preview3-35497" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="2.2.0-preview3-35497" />
+        <dependency id="System.Diagnostics.DiagnosticSource" version="4.5.0" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.2.0-preview3-35497" />
+        <dependency id="Remotion.Linq" version="2.2.0" />
+        <dependency id="System.Collections.Immutable" version="1.5.0" />
+        <dependency id="System.ComponentModel.Annotations" version="4.5.0" />
+        <dependency id="System.Interactive.Async" version="3.2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  
+  
+  <files>
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.dll" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Design.dll" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Design.dll" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Analyzers.dll" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Analyzers.dll" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll" />
+
+	<file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.xml" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.xml" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Design.xml" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Design.xml" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.xml" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.xml" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.xml" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.xml" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.xml" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.xml" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.xml" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.xml" />
+
+	<file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.pdb" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.pdb" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Design.pdb" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Design.pdb" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Analyzers.pdb" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Analyzers.pdb" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.pdb" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.pdb" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.pdb" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.pdb" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.pdb" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.pdb" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.pdb" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.pdb" />
+
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Proxies.dll" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Proxies.dll" />
+	<file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Proxies.pdb" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Proxies.pdb" />
+    <file src="Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Proxies.xml" target="lib\netstandard2.0\Microsoft.EntityFrameworkCore.Proxies.xml" />
+  </files>
+</package>
